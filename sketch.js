@@ -25,9 +25,11 @@ function draw() {
   }
   if(keyDown(UP_ARROW)){
   bal.y = bal.y -7;
+  bal.scale = 0.7
   }
   if(keyDown(DOWN_ARROW)){
     bal.y = bal.y +7;
+    bal.scale = 1.3
   }
   drawSprites();
 }
